@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    transition: .4s;
+    outline: none;
+}
+
+#header {
+    padding: 22px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #173A56;
+    padding-left: 16px;
+}
+
+.header-group {
+    display: flex;
+    align-items: center;
+}
+
+.header-group a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #22343D;
+    padding: 0 25px;
+}
+
+.header-btn-one {
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid #BCD0E5;
+    padding: 10px 25px;
+    background: transparent;
+    border-radius: 4px;
+    color: #173A56;
+}
+
+.header-btn-two {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background: #02897A;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin: 0 24px;
+}
+
+.header-btn-three {
+    color: #02897A;
+    background: #F3F3F3;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#client {
+    padding: 100px 0;
+}
+
+.client h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #22343D;
+    padding-bottom: 50px;
+}
+
+.client-logo-general {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#how {
+    padding: 50px 0;
+}
+
+.how-group {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.how h1 {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+    color: #22343D;
+    padding-bottom: 73px;
+}
+
+.how-text h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #22343D;
+}
+
+.how-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #22343D;
+    padding: 16px 0;
+}
+
+.how-text p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 438px;
+}
+
+#pay {
+    padding: 50px 0;
+}
+
+.pay {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pay-text h2 {
+    font-size: 20px;
+    color: #22343D;
+    font-weight: 500;
+}
+
+.pay-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #22343D;
+    padding: 16px 0;
+}
+
+.pay-text p {
+    width: 445px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #22343D;
+}
+
+#step {
+    padding: 50px 0;
+}
+
+.step-group {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 78px;
+}
+
+.step-text h2 {
+    font-size: 20px;
+    color: #22343D;
+    font-weight: 500;
+}
+
+.step-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #22343D;
+    padding: 16px 0;
+}
+
+.step-text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #22343D;
+    width: 438px;
+    line-height: 28px;
+}
+
+.step button {
+    font-size: 18px;
+    background: #02897A;
+    padding: 11px 18px;
+    color: white;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.step button:hover {
+    transform: scale(1.1);
+}
