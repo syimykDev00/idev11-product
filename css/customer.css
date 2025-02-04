@@ -223,3 +223,79 @@ button {
 .step button:hover {
     transform: scale(1.1);
 }
+
+#offers {
+    background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);;
+    padding: 35px 0 45px 0;
+}
+
+.offers h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #22343D;
+    width: 537px;
+    margin: 0 auto;
+    padding-bottom: 93px;
+}
+
+.offers-general {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.offers-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.offers-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.offers-image-one {
+    width: 150px;
+    height: 150px;
+    background: #FFEFEF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-image-two {
+    width: 150px;
+    height: 150px;
+    background: #F2F6FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers-group h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+    padding: 27px 0 16px 0;
+}
+
+.offers-navbar a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #22343D;
+    padding-bottom: 8px;
+}
+
+.offers-group h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    padding-top: 4px;
+}
